@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRƯỜNG ĐẠI HỌC MỞ TP HCM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:ital,wght@0,300;1,400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/headerandfooter.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    
+</head>
+<body>  
+    <div class="gototop">
+        <a id="gototop" href="javascript:;" onclick="goToTop()">GO TO TOP</a>
+    </div>
+    <header id="myHeader">
+        <div class="head-bar" id="myheadbar">
+            <div class="logo">
+                <img src="images/Logo (1).png" alt="OU"> 
+            </div>
+            <div style="width: 20%;"></div>
+            <div class="header-right">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Tìm kiếm...">
+                    <button class="search-button">Tìm kiếm</button>
+                </div>
+                
+                <div class="authen-container">
+                    <div class="authen">
+                        <a href="index4.html">Đăng nhập/Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-bar" id="subbarId">
+            <!-- MAIN NAVBAR -->
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Giới thiệu<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Giới thiệu chung</a>
+                      <a href="#">Sứ mạng và tầm nhìn</a>
+                      <a href="#">Sơ đồ cơ cấu tổ chức</a>
+                      <a href="#">Chức năng nhiệm vụ các đơn vị</a>
+                      <a href="#">Lịch sử và phát triển</a>
+                      <a href="#">Hội đồng trường</a>
+                      <a href="#">Ban giám hiệu</a>
+                      <a href="#">Biểu tượng &ndash; Logo</a>
+                      <a href="#">Kiểm định chất lượng</a>
+                      <a href="#">Thông tin liên hệ</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <button class="subnavbtn">Phòng &ndash; Cơ sở<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="#">Phòng Quản Lí Đào Tạo</a>
+                        <a href="#">Phòng Khảo Thí</a>
+                        <a href="#">Phòng Hành Chính &ndash; Quản Trị</a>
+                        <a href="#">Phòng Công Tác Sinh Viên và Truyền Thông</a>
+                        <a href="#">Phòng Tổ Chức &ndash; Nhân Sự</a>
+                        <a href="#">Phòng Tài Chính &ndash; Kế Toán</a>
+                        <a href="#">Phòng Đầu Tư &ndash; Xây Dựng</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <button class="subnavbtn">Khoa &ndash; Ban<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Khoa Đào Tạo Sau Đại Học</a>
+                      <a href="#">Khoa Đào Tạo Sau Đặc Biệt</a>
+                      <a href="#">Khoa Công Nghệ Sinh Học</a>
+                      <a href="#">Khoa Kế toán &ndash; Kiểm toán</a>
+                      <a href="#">Khoa Luật</a>
+                      <a href="#">Khoa Quản Trị Kinh Doanh</a>
+                      <a href="#">Khoa Tài chính &ndash; Ngân hàng</a>
+                      <a href="#">Khoa Xây Dựng</a>
+                      <a href="#">Khoa Ngoại Ngữ</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <button class="subnavbtn">Trung Tâm<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Trung Tâm QL Hệ Thống Thông Tin</a>
+                      <a href="#">Trung Tâm Đào Tạo Từ Xa</a>
+                      <a href="#">Trung Tâm Đào Tạo Trực Tuyến</a>
+                      <a href="#">Trung Tâm ĐTNH Ngoại Ngữ &ndash; Tin Học</a>
+                      <a href="#">Trung Tâm ĐT Bồi Dưỡng Nghiệp Vụ</a>
+                      <a href="#">Trung Tâm Nghiên Cứu Phát Triển</a>
+                      <a href="#">Trung tâm Học Liệu</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <button class="subnavbtn">Đào Tạo<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Đại Học</a>
+                      <a href="#">Đào Tạo Từ Xa &ndash; Vừa Học Vừa Làm</a>
+                      <a href="#">Đào Tạo Sau Đại Học</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <button class="subnavbtn">Sinh Viên<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Công Tác Sinh Viên</a>
+                      <a href="#">Thông báo sinh viên</a>
+                      <a href="#">Hệ thống thông tin Sinh viên</a>
+                      <a href="#">Tín dụng sinh viên</a>
+                      <a href="#">Hướng dẫn đóng học phí</a>
+                      <a href="#">Cổng thông tin cố vấn học tập</a>
+                      <a href="#">Quy chế &ndash; Quy định CTSV</a>
+                      <a href="#">Cổng Thông Tin Việc Làm</a>
+                      <a href="#">Sinh Hoạt Công Dân</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <button class="subnavbtn">Hợp tác &ndash; Nghiên cứu<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Thông tin Nghiên cứu &ndash; Hội thảo</a>
+                      <a href="#">Trung Tâm Nghiên Cứu Phát Triển</a>
+                      <a href="#">Hội đồng Giáo sư cơ sở</a>
+                      <a href="#">Hợp tác doanh nghiệp</a>
+                    </div>
+                  </div>
+                  <div class="subnav">
+                    <button class="subnavbtn">Đoàn thể<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Đoàn Thanh Niên &ndash; Hội Sinh Viên</a>
+                      <a href="#">Ban chấp hành Công đoàn (phiên bản mới)</a>
+                      <a href="#">Ban Chấp Hành Công Đoàn (phiên bản cũ)</a>
+                    </div>
+                  </div>
+            </div>
+            <!-- MOBILE NAVBAR -->
+            <div class="mobile-navbar">
+                <div class="icon-wrapper">
+                    <div class="mobile-navbar-icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>    
+                    <div class="mobile-navbar-icon more-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <ul class="mobile-nav-list hidden">
+                    <li class="nav-list-item ">
+                        <button class="sub-nav-btn">Giới thiệu<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Giới thiệu chung</a>
+                            <a href="#">Sứ mạng và tầm nhìn</a>
+                            <a href="#">Sơ đồ cơ cấu tổ chức</a>
+                            <a href="#">Chức năng nhiệm vụ các đơn vị</a>
+                            <a href="#">Lịch sử và phát triển</a>
+                            <a href="#">Hội đồng trường</a>
+                            <a href="#">Ban giám hiệu</a>
+                            <a href="#">Biểu tượng &ndash; Logo</a>
+                            <a href="#">Kiểm định chất lượng</a>
+                            <a href="#">Thông tin liên hệ</a>
+                        </div>
+                    </li>
+                    <li class="nav-list-item ">
+                        <button class="sub-nav-btn">Phòng &ndash; Cơ sở<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Phòng Quản Lí Đào Tạo</a>
+                            <a href="#">Phòng Khảo Thí</a>
+                            <a href="#">Phòng Hành Chính &ndash; Quản Trị</a>
+                            <a href="#">Phòng Công Tác Sinh Viên và Truyền Thông</a>
+                            <a href="#">Phòng Tổ Chức &ndash; Nhân Sự</a>
+                            <a href="#">Phòng Tài Chính &ndash; Kế Toán</a>
+                            <a href="#">Phòng Đầu Tư &ndash; Xây Dựng</a>
+                        </div>
+                    </li>
+                    <li class="nav-list-item">
+                        <button class="sub-nav-btn">Khoa &ndash; Ban<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Khoa Đào Tạo Sau Đại Học</a>
+                            <a href="#">Khoa Đào Tạo Sau Đặc Biệt</a>
+                            <a href="#">Khoa Công Nghệ Sinh Học</a>
+                            <a href="#">Khoa Kế toán &ndash; Kiểm toán</a>
+                            <a href="#">Khoa Luật</a>
+                            <a href="#">Khoa Quản Trị Kinh Doanh</a>
+                            <a href="#">Khoa Tài chính &ndash; Ngân hàng</a>
+                            <a href="#">Khoa Xây Dựng</a>
+                            <a href="#">Khoa Ngoại Ngữ</a>
+                        </div>
+                    </li>
+                    <li class="nav-list-item ">
+                        <button class="sub-nav-btn">Trung Tâm<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Trung Tâm QL Hệ Thống Thông Tin</a>
+                            <a href="#">Trung Tâm Đào Tạo Từ Xa</a>
+                            <a href="#">Trung Tâm Đào Tạo Trực Tuyến</a>
+                            <a href="#">Trung Tâm ĐTNH Ngoại Ngữ &ndash; Tin Học</a>
+                            <a href="#">Trung Tâm ĐT Bồi Dưỡng Nghiệp Vụ</a>
+                            <a href="#">Trung Tâm Nghiên Cứu Phát Triển</a>
+                            <a href="#">Trung tâm Học Liệu</a>
+                        </div>
+                    </li>
+                    <li class="nav-list-item ">
+                        <button class="sub-nav-btn">Đào Tạo<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Đại Học</a>
+                            <a href="#">Đào Tạo Từ Xa &ndash; Vừa Học Vừa Làm</a>
+                            <a href="#">Đào Tạo Sau Đại Học</a>
+                        </div>
+                    </li>
+                    <li class="nav-list-item">
+                        <button class="sub-nav-btn">Sinh Viên<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Công Tác Sinh Viên</a>
+                            <a href="#">Thông báo sinh viên</a>
+                            <a href="#">Hệ thống thông tin Sinh viên</a>
+                            <a href="#">Tín dụng sinh viên</a>
+                            <a href="#">Hướng dẫn đóng học phí</a>
+                            <a href="#">Cổng thông tin cố vấn học tập</a>
+                            <a href="#">Quy chế &ndash; Quy định CTSV</a>
+                            <a href="#">Cổng Thông Tin Việc Làm</a>
+                            <a href="#">Sinh Hoạt Công Dân</a>
+                        </div>
+                    </li>
+                    <li class="nav-list-item">
+                        <button class="sub-nav-btn">Hợp tác &ndash; Nghiên cứu<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Thông tin Nghiên cứu &ndash; Hội thảo</a>
+                            <a href="#">Trung Tâm Nghiên Cứu Phát Triển</a>
+                            <a href="#">Hội đồng Giáo sư cơ sở</a>
+                            <a href="#">Hợp tác doanh nghiệp</a>
+                        </div>
+                    </li>
+                    <li class="nav-list-item">
+                        <button class="sub-nav-btn">Đoàn thể<i class="fa fa-caret-down"></i></button>
+                        <div class="nav-list-content hidden">
+                            <a href="#">Đoàn Thanh Niên &ndash; Hội Sinh Viên</a>
+                            <a href="#">Ban chấp hành Công đoàn (phiên bản mới)</a>
+                            <a href="#">Ban Chấp Hành Công Đoàn (phiên bản cũ)</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+    
+    <section class="banner">
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="carouselimg/tintuc.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="carouselimg/thuongbinhlietsi.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="carouselimg/carousel3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="carouselimg/carousel4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/banner2.jpg" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"> < </button>
+                <button id="next"> > </button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+    <section class="first-sec">
+        <div class="first-sec-container">
+            <div class="hero-container">
+                <h1 class="hero-title">Lan tỏa tác động truyền cảm hứng</h1>
+            </div>
+            <div class="hero-content">
+                <div><p>Sứ mạng: Trường Đại học Mở thành phố Hồ Chí Minh thực hiện giáo dục mở, tạo bình đẳng cho mọi người trong giáo dục đại học, góp phần xây dựng xã hội học tập, nâng cao tri thức và năng lực nghề nghiệp cho người học bằng các phương thức linh hoạt, thuận tiện và hiệu quả.</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="third-sec">
+        <div class="third-sec-container">
+            <div class="row1-thirdsec-container">
+                <div class="row1-left">
+                    <p>Tin tức &ndash; sự kiện nổi bật</p>
+                </div>
+                <!-- <div class="row1-right">
+                    <p>Xem toàn bộ tin tức &amp; sự kiện</p>
+                    <div>
+                        <button >
+                            <div><span>></span></div>
+                        </button>   
+                    </div>
+                </div> -->
+            </div>
+            <div class="row2-thirdsec-container">
+                <div class="row2-left">
+                    <div class="left-theme-image">
+                        <a href="#"><img src="images/tuyen_sinh_2023-new.png" alt="tuyensinh2023"></a>
+                    </div>
+                    <div class="left-content">
+                        <div><p style="color: #d72134;font-size: 1.5rem; font-weight: 600;width: max-content;">Tuyển sinh</p></div>
+                        <div><a href="#" style="color: inherit !important; cursor: pointer;font-size: 1.5rem;font-weight: 500;">Thông báo nhận hồ sơ xét tuyển theo Đề án tuyển sinh riêng (Học bạ) năm 2023</a></div>
+                    </div>
+                </div>
+                <div class="row2-right-container">
+                    <div class="one_of_right-news">
+                        <div class="right-theme-image">
+                            <a href="#"><img src="images/muahexanh_hoatdongsinhvien.jpg" alt=""></a>
+                        </div>
+                        <div class="right-content">
+                            <div><p>Hoạt động sinh viên</p></div>
+                            <div><a href="#">Các hoạt động phục vụ cộng đồng trong chiến dịch tình nguyện Mùa Hè Xanh 2023</a></div>
+                        </div>
+                    </div>
+
+                    <div class="one_of_right-news">
+                        <div class="right-theme-image">
+                            <a href="#"><img src="images/94nam.jpg" alt="94namkiniem"></a>
+                        </div>
+                        <div class="right-content">
+                            <div><p>Tin tức</p></div>
+                            <div><a href="#">
+                                Trường Đại học Mở Thành phố Hồ Chí Minh chúc mừng 94 năm ngày thành lập công đoàn Việt Nam (28/7/1929 &ndash; 28/7/2023)</a></div>
+                             </div>
+                    </div>
+
+                    <div class="one_of_right-news">
+                        <div class="right-theme-image">
+                            <a href="#"><img src="images/chiendichmhx.jpg" alt="chiendich"></a>
+                        </div>
+                        <div class="right-content">
+                            <div><p>Hoạt động sinh viên</p></div>
+                            <div><a href="#">Chiến dịch tình nguyện Mùa Hè Xanh 2023 mặt trận tỉnh Kon Tum</a></div>
+                        </div>
+                    </div>
+
+                    <div class="one_of_right-news"> 
+                        <div class="right-theme-image">
+                            <a href="#"><img src="images/cuocthihocthuat.jpg" alt="hocthuat"></a>
+                        </div>
+                        <div class="right-content">
+                            <div><p>Hoạt động sinh viên</p></div>
+                            <div><a href="#">Vòng chung kết cuộc thi học thuật “Logprime 2023”</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row3-thirdsec-container">
+                <div class="one_sec_of_row3">
+                    <div class="theme-image-row3">
+                        <a href="#"><img src="images/ngaythuongbinhls.jpg" alt="hoithao"></a>
+                    </div>
+                    <div class="content-row3">
+                        <div><p>Tin tức</p></div>
+                        <div><a href="#"><p>Hội thảo Khoa học Quốc tế “Chuẩn đoán sức khỏe công trình và Kỹ thuật kết cấu (SHM&ES) lần thứ 3 năm 2023</p></a></div>
+                    </div>
+                </div>
+                <div class="one_sec_of_row3">
+                    <div class="theme-image-row3">
+                        <a href="#"><img src="images/ngaythuongbinhls.jpg" alt="hoithao"></a>
+                    </div>
+                    <div class="content-row3">
+                        <div><p>Hoạt động sinh viên</p></div>
+                        <div><a href="#"><p>Ngày thương bình liệt sĩ 27/7: Lan toả đạo lý Uống nước nhớ nguồn</p></a></div>
+                    </div>
+                </div>
+                <div class="one_sec_of_row3">
+                    <div class="theme-image-row3">
+                        <a href="#"><img src="images/ngayhoivieclam.jpg" alt="hoithao"></a>
+                    </div>
+                    <div class="content-row3">
+                        <div><p>Hoạt động sinh viên</p></div>
+                        <div><a href="#"><p>Ngày hội việc làm &ndash; OU Job Fair 2023</p></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <secion class="fourth-sec">
+        <div class="fourth-sec-container">
+            <div>
+                <h1>Các hệ đào tạo</h1>
+            </div>
+            <div class="edu ">
+                <div class="edu-col1 ">
+                    <img class= "edu-img" src="images/saudaihoc.jpg">
+                    <span>ĐÀO TẠO SAU ĐẠI HỌC</span>
+                    <a href="#">Tìm hiểu và Thông báo</a>
+                </div>
+                <div class="edu-col2">
+                    <img class= "edu-img" src="images/tuyen_sinh_2023-new.png">
+                    <span>ĐÀO TẠO CHÍNH QUY</span>
+                    <a href="#">Tìm hiểu và Thông báo</a>
+                </div>
+                <div class="edu-col3">
+                    <img class= "edu-img" src="images/banner2.jpg">
+                    <span>ĐÀO TẠO TỪ XA</span>
+                    <a href="#">Tìm hiểu và Thông báo</a>
+                </div>
+            </div>
+        </div>
+    </secion>
+    <section class="fifth-sec">
+        <div class="fifth-sec-container flex">
+            <div class="introduction">
+                <h1>Các Trường & Khối đào tạo</h1>  
+                <div class="flex" style="gap: 10px; align-items: baseline;">
+                    <span style="color: black; font-size: 1.3rem;">Xem toàn bộ ngành đào tạo</span>
+                    <div>
+                        <button>
+                            <div><span >></span></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="fifth-sec-body">
+                <div class="group-container">
+                    <div class="group">
+                        <div class="subject-container">
+                            <div class="major">NHÂN VĂN</div>
+                            <div class="major-link">
+                                <a href="#">Ngôn ngữ Anh</a>
+                                <a href="#">Ngôn ngữ Trung Quốc</a>
+                                <a href="#">Ngôn ngữ Nhật</a>
+                                <a href="#">Ngôn ngữ Hàn Quốc</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="subject-container">
+                            <div class="major">KHOA HỌC XÃ HỘI &amp; HÀNH VI</div>
+                            <div class="major-link">
+                                <a href="#">Tâm lý học <img src="images/new.gif" alt=""></a>
+                                <a href="#">Kinh tế</a>
+                                <a href="#">Xã hội học</a>
+                                <a href="#">Đông Nam Á học</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="subject-container">
+                            <div class="major">KINH DOANH &amp; QUẢN LÝ</div>
+                            <div class="major-link">
+                                <a href="#">Quản trị kinh doanh</a>
+                                <a href="#">Marketing</a>
+                                <a href="#">Kinh doanh quốc tế</a>
+                                <a href="#">Tài chính&ndash;ngân hàng</a>
+                                <a href="#">Kế toán</a>
+                                <a href="#">Kiểm toán</a>
+                                <a href="#">Quản lý công</a>
+                                <a href="#">Quản trị nhân lực</a>
+                                <a href="#">Hệ thống thông tin quản lý</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-container">
+                    <div class="group" >
+                        
+                        <div class="subject-container">
+                            <div class="major">PHÁP LUẬT</div>
+                            <div class="major-link">
+                                <a href="#">Luật</a>
+                                <a href="#">Luật kinh tế</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group" >
+                      
+                        <div class="subject-container">
+                            <div class="major">KHOA HỌC SỰ SỐNG</div>
+                            <div class="major-link">
+                                <a href="#">Công nghệ sinh học</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group" >
+                       
+                        <div class="subject-container">
+                            <div class="major">MÁY TÍNH &amp; CÔNG NGHỆ THÔNG TIN</div>
+                            <div class="major-link">
+                                <a href="#">Khoa học máy tính</a>
+                                <a href="#">Công nghệ thông tin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-container">
+                    <div class="group">
+                       
+                        <div class="subject-container">
+                            <div class="major">CÔNG NGHỆ KỸ THUẬT</div>
+                            <div class="major-link">
+                                <a href="#">Công nghệ kỹ thuật công trình xây dựng</a>
+                                <a href="#">Logistics và Quản lý chuỗi cung ứng</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group" >
+                       
+                        <div class="subject-container">
+                            <div class="major">KIẾN TRÚC VÀ XÂY DỰNG</div>
+                            <div class="major-link">
+                                <a href="#">Quản lý xây dựng</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                       
+                        <div class="subject-container">
+                            <div class="major">DỊCH VỤ XÃ HỘI</div>
+                            <div class="major-link">
+                                <a href="#">Công tác xã hội</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-container">
+                    <div class="group">
+                        <div class="subject-container">
+                            <div class="major">SẢN XUẤT VÀ CHẾ BIẾN</div>
+                            <div class="major-link">
+                                <a href="#">Công nghệ thực phẩm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="subject-container">
+                            <div class="major">DỊCH VỤ XÃ HỘI</div>
+                            <div class="major-link">
+                                <a href="#">Công tác xã hội</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="subject-container">
+                            <div class="major">DU LỊCH, KHÁCH SẠN, THỂ THAO &amp; DỊCH VỤ CÁ NHÂN</div>
+                            <div class="major-link">
+                                <a href="#">Du lịch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-container">
+                    <div class="group">
+                        <div class="subject-container">
+                            <div class="major"> TOÁN &amp; THỐNG KÊ</div>
+                            <div class="major-link">
+                                <a href="#">Khoa học dữ liệu<img src="images/new.gif" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-image">
+            <img src="images/fifthsection.png" alt="">
+        </div>
+    </section>
+    <section class="sixth-sec">
+        <div class="sixth-sec-container">
+            <h2>TÀI NGUYÊN - TIỆN ÍCH DÀNH CHO SINH VIÊN</h2>
+            <div class="learn-gadget">
+                <div class="gadget">
+                    <div class="gadget-image">
+                        <a href="#"><img src="images/library.png" alt="learn-gadget"></a>
+                    </div>
+                    <div class="gadget-link">
+                        <a href="#index3.html"><h3>ĐĂNG KÍ MÔN HỌC TRỰC TUYẾN</h3></a>
+                        <p>Dùng cho sinh viên đăng ký môn học ở đầu mỗi học kỳ.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="first-site-container">
+                <div class="first-site-col">
+                    <a><img src="images/logoDHMO2SMALL PNG.png" alt=""></a>
+                </div>
+                <div class="first-site-col">
+                    <div class="footer-title">Email</div>
+                    <div class="footer-content"><a href="mailto:ou@ou.edu.vn">ou@ou.edu.vn</a></div>
+                </div>  
+                <div class="first-site-col">
+                    <div class="footer-title">Điện thoại</div>
+                    <div class="footer-content"><a href="tel:0898982526" title="Gọi 028-38364748" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone">028-38364748</a></div>
+                    <div class="footer-content"><a href="tel:0898982526" title="Gọi 028-39207639" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone">028-39207639</a></div>
+                    <div class="footer-content"><a href="tel:0898982526" title="Gọi 028-39207640" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone">028-39207640</a></div>
+                </div>
+                <div class="first-site-col">
+                    <div class="footer-title">Địa chỉ</div>
+                    <div class="footer-content"><a href="https://goo.gl/maps/fZKTBGYV3bn6nhgs9" alt="CS1">97 Võ Văn Tần P. 6, Q. 3 TP. Hồ Chí Minh </a> </div>
+                    <div class="footer-content"><a href="https://goo.gl/maps/C5ArUSNWvKP776su9" alt="CS2">35 &ndash; 37 Hồ Hảo Hớn P. Cô Giang, Q. 1 TP. Hồ Chí Minh</a></div>
+                    <div class="footer-content"><a href="https://goo.gl/maps/cQWeorvUppd8u32y5" alt="CS3">371 Nguyễn Kiệm, P. 3, Q. Gò Vấp, TP. Hồ Chí Minh</a></div>
+                </div>
+            </div>
+            <div class="second-site-container">
+                <div class="second-site-col">
+                    <div class="footer-title">Về chúng tôi</div>
+                    <div class="footer-content ">
+                        <a href="#">Tin tức</a>
+                        <a href="#">Sự kiện</a>
+                        <a href="#">Tuyển dụng</a>
+                    </div>
+                </div>
+                <div class="second-site-col">
+                    <div class="footer-title">Truy cập nhanh</div>
+                    <div class="footer-content ">
+                        <a href="#">Trang chủ</a>
+                        <a href="https://tienichsv.ou.edu.vn">Tiện ích</a>
+                        <a href="https://lms.ou.edu.vn">Học tập</a>
+                        <a href="https://ou.edu.vn/thu-vien">Thư viện</a>
+                    </div>
+                </div>
+                <div class="second-site-col">
+                    <div class="footer-title">Follow us</div>
+                    <div class="footer-content ">
+                        <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></i>Instagram</a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+                    </div>
+                </div>
+                <div class="second-site-col">
+                    <div class="footer-title">Các trường và khối nghành đào tạo</div>
+                    <div class="footer-content ">
+                        <a href="#">Nhân văn</a>
+                        <a href="#">Khoa học xã hội &amp; quản lí </a>
+                        <a href="#">Pháp luật</a>
+                        <a href="#">Khoa học sự sống</a>
+                        <a href="#">Máy tính &amp; công nghệ thông tin</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="third-site-container">
+                <div class="third-site ">
+                    <div><span>© 2022 Open University. All rights reserved.</span></div>
+                    <div class="third-site-col ">
+                        <div>Điều khoản</div>
+                        <div>Chính sách bảo mật</div>
+                        <div>Copyright</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>   
+    </footer>
+    
+
+
+
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/slider.js"></script>
+    <script src="javascript/code.jquery.com_jquery-3.7.0.min.js"></script>
+</body>
+</html>
